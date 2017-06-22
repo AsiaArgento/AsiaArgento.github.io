@@ -30,6 +30,10 @@ header {
     display: inline-block;
 }
 
+#logo a:hover {
+    color: #85A5CC;
+}
+
 #top-nav {
     float: right;
     display: inline-block;
