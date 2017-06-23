@@ -135,3 +135,34 @@ header {
     width: 100%;
 }
 
+/* About Page CSS */
+
+.work img {
+    width: 425px;
+    display: inline-block;
+    margin-bottom: 100px;
+    padding-right: 15px;
+}
+
+.work p {
+    color: #fff;
+    font-family: 'Cabin sketch', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    display: inline-block;
+    overflow: scroll;
+    width: 400px;
+}
+
+/* Contact Page CSS */
+
+.work h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Cabin sketch', sans-serif;
+}
+
+.work h1 .email {
+    font-family: sans-serif;
+}
