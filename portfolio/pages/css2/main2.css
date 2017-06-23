@@ -163,6 +163,13 @@ header {
     font-family: 'Cabin sketch', sans-serif;
 }
 
-.work h1 .email {
+.work h1 .email a {
     font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 50px;
+}
+
+.work h1 .email a:hover {
+     color: #85A5CC;
 }
