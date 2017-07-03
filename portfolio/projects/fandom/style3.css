@@ -1,0 +1,143 @@
+/* IE6 / CROSS-BROWSER STYLING */
+
+nav, main {display: block;}
+
+* {padding: 0; margin: 0;}
+
+/* WRAPPER */
+
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: url(images2/fandomBackground.jpg);
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    border-top: 6px solid #656e78;
+    display: block;
+    z-index: 2;
+    background-color: #fff;
+}
+
+ul img {
+    display: inline-block;
+    width: 15%;
+    float: left;
+    margin-left: 160px;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #39424d;
+    padding: 20px;
+    margin: -20px;
+}
+
+ul li .one {
+    border-top: 6px solid;
+    border-top-color: #94d11f;
+}
+
+ul li .two {
+    border-top: 6px solid;
+    border-top-color: #09d3bf;
+}
+
+ul li .three {
+    border-top: 6px solid;
+    border-top-color: #00b7e0;
+}
+
+ul li.five {
+    float: right;
+    border: 1px solid #06b9e1;
+    padding: 8px 14px;
+    margin-top: 12px;
+    margin-right: 160px;
+    color: #06b9e1;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+/* NAVIGATION HOVER STYLING */
+
+ul li .one:hover {
+    background-color: #656e78;
+    color: #fff;
+}
+
+ul li .two:hover {
+    background-color: #656e78;
+    color: #fff;
+}
+
+ul li .three:hover {
+    background-color: #656e78;
+    color: #fff;
+}
+
+ul li .four:hover {
+    background-color: #656e78;
+    color: #fff;
+}
+
+ul li.five:hover {
+    color: #00647a;
+    border-color: #00647a;
+    cursor: pointer;
+}
+
+/* RIGHT SIDE OF SEARCH BAR */
+
+input[type=text] {
+    width: 15%;
+    margin-top: 12px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+
+/* MAIN BODY HEADER */
+
+main {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    z-index: 1;
+    display: block;
+    background-color: #fff;
+}
+
+main div {
+    background-color: #006cb0;
+}
+
+main div img {
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+main h1 {
+    width: 50%;
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
