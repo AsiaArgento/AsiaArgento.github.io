@@ -2,86 +2,189 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Matthew Marion Moncada - Front End Web Developer</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Marion Moncada - Web Developer</title>
+    <script src="https://use.fontawesome.com/2206a4c471.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-   <header>
-       <div id="logo">
-           <a href="index.html">Home</a>
-       </div>
-       <nav id="top-nav">
-           <a href="pages/about.html">About</a>
-           <a href="pages/work.html">Work</a>
-           <a href="pages/contact.html">Contact</a>
-       </nav>
-   </header>
-   
-   <div class="jumbo">
-       <h1>Welcome To My Portfolio!</h1>
-   </div>
-   
-   <div class="work">
-       <div class="box" style="background: url(images/fandomScreenshot2.png) no-repeat center center; background-size: cover;">
-          <div class="hoverBox">
-              <h3>Project 1 / Static Design / HTML5 and CSS3</h3>
-              <h5>I recreated the "Fandom - Powered By Wikia" website page for the show "A Certain Magical Index" for fun and it is one of my favorite shows!</h5>
-          </div>
-       </div>
-       <div class="box" style="background: url(http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg) no-repeat center center; background-size: cover;">
-          <div class="hoverBox">
-              <h3>Project 2</h3>
-              <h5>Coming Soon..</h5>
-          </div>
-       </div>
-       <div class="box" style="background: url(http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg) no-repeat center center; background-size: cover;">
-          <div class="hoverBox">
-              <h3>Project 3</h3>
-              <h5>Coming Soon..</h5>
-          </div>
-       </div>
-       <div class="box" style="background: url(http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg) no-repeat center center; background-size: cover;">
-          <div class="hoverBox">
-              <h3>Project 4</h3>
-              <h5>Coming Soon..</h5>
-          </div>
-       </div>
-       <div class="box" style="background: url(http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg) no-repeat center center; background-size: cover;">
-          <div class="hoverBox">
-              <h3>Project 5</h3>
-              <h5>Coming Soon..</h5>
-          </div>
-       </div>
-       <div class="box" style="background: url(http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg) no-repeat center center; background-size: cover;">
-          <div class="hoverBox">
-              <h3>Project 6</h3>
-              <h5>Coming Soon..</h5>
-          </div> 
-       </div>
-   </div>
-   
-   <div class="modal-container">
-       <div class="modal">
-           <img src="images/fandomScreenshot2.png" alt="Project">
-       </div>
-   </div>
-   
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div id="navigation">   <!-- #navigation / navigation bar parent container -->
+        <div class="header">   <!-- .header / navigation bar child container -->
+           <div class="left">
+               <a href="#home">HOME</a>
+           </div>
+           <div class="right">
+               <a href="#about">About</a>
+               <a href="#portfolio">Portfolio</a>
+               <a href="#photos">Photos</a>
+               <a href="#blog">Blog</a>
+               <a href="#contact">For Stalkers</a>
+           </div> 
+        </div>
+    </div>
+    
+    <div id="home" class="slideshow">
+       <img class="mySlides" src="images/colorado1.jpg" style="width:100%">
+       <img class="mySlides" src="images/tokyo1.jpg" style="width:100%">
+       <img class="mySlides" src="images/tokyo2.jpg" style="width:100%">
+       <img class="mySlides" src="images/dallas1.jpg" style="width:100%;">
+       <img class="mySlides" src="images/sanantonio1.jpg" style="width:100%;">
+    </div>
+    
+    <div id="about">
+        <div class="about2">
+            <h2>Summary</h2>
+            <h3>Who Is Matt Moncada?</h3>
+            <p>Welcome to my personal website. Born in the US to Mexican-American parents and currently residing in San Antonio since 2017, Matt is a full-stack web developer specializing in front-end web development.</p>
+            <br />
+            <p>Matt also writes about life, performance, and technology on his blog and has been doing so regularly since 2017. *COMING SOON*</p>
+            <h3>What Does Matt Do?</h3>
+            <p>Matt creates websites and spends most of his time learning/building new projects to keep himself sharp. Along with showcasing projects I also aspire this website to function as a travel/technology blog in the future.</p>
+            <h3>Qualifications:</h3>
+            <p>Matt has over a year of development experience. I can turn just drawing on paper into that beautiful, functional website you were thinking of. This webpage that you are currently on I personally built.. if you like it give me a call!</p>
+            <a href="resume/myResume.docx" download="myResume.docx"><button>Download Resume</button></a>
+        </div>
+    </div> <!-- END OF ABOUT -->
+    
+    <div id="portfolio">
+        <div class="portfolio2">
+            <div class="work">
+                <h2 class="title" style="border-bottom: 1px solid #ccc;">Front End</h2>
+                <div class="box">
+                   <h4>HTML & CSS</h4>
+                    <ul>
+                        <li><a target="_blank" href="/portfolio/portfolio1/index.html">Portfolio Website #1</a></li>
+                        <li><a target="_blank" href="/portfolio/portfolio2/index.html">Band Website #1</a></li>
+                        <li><a target="_blank" href="/portfolio/portfolio3/index.html">Artist Website #1</a></li>
+                        <li><a target="_blank" href="/portfolio/portfolio4/index.html">Company Website #1</a></li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                   <h4>Javascript</h4>
+                    <ul>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>jQuery</h4>
+                     <ul>
+                        <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Bootstrap</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+            </div>
+            <div class="work">
+                <h2 class="title" style="border-bottom: 1px solid #ccc;">Back End</h2>
+                <div class="box">
+                    <h4>PHP</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>MySQL</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>N/A</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>N/A</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+            </div>
+            <div class="work">
+                <h2 class="title" style="border-bottom: 1px solid #ccc;">MEAN Stack</h2>
+                <div class="box">
+                    <h4>Node.js</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>MongoDB</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Express</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+                <div class="box">
+                    <h4>Angular.js</h4>
+                     <ul>
+                         <li><a href=""></a></li>
+                     </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div> <!-- END OF PORTFOLIO -->
+    
+    <div id="photos">
+        <div class="photos2">
+            <h1>COMING SOON... OOPS I HAVEN'T MADE IT YET!</h1>
+        </div>
+    </div> <!-- END OF PHOTOS -->
+    
+    <div id="blog">
+        <div class="blog2">
+            <h1>COMING SOON... OOPS I HAVEN'T MADE IT YET!</h1>
+        </div>
+    </div> <!-- END OF BLOG -->
+    
+    <div id="contact">
+        <div class="contact2">
+            <i style="display: block;" class="fa fa-map-marker" aria-hidden="true"> San Antonio, TX</i>
+            <i style="display: block;" class="fa fa-phone" aria-hidden="true"> Phone: (214)-973-8097</i>
+            <i style="display: block;" class="fa fa-envelope" aria-hidden="true"> Email: <a href="mailto:misakamikotocsr@gmail.com">misakamikotocsr@gmail.com</a> *Preferred*</i>
+        </div>
+    </div>
+    
     <script>
-      $(document).ready(function(){
-          
-          $('.box').click(function(){
-             $('.modal-container').addClass('active'); 
-          });
-          
-          $('.modal').click(function(){
-             $('.modal-container').removeClass('active'); 
-          });
-              
-          
-          
-      });
+     var myIndex = 0;
+     carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+       
     </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
