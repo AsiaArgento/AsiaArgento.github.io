@@ -20,10 +20,10 @@
                <a href="#photos">Photos</a>
                <a href="#blog">Blog</a>
                <a href="#contact">For Stalkers</a>
-           </div> 
+           </div>
         </div>
     </div>
-    
+
     <div id="home" class="slideshow">
        <img class="mySlides" src="images/colorado1.jpg" style="width:100%;">
        <img class="mySlides" src="images/tokyo1.jpg" style="width:100%;">
@@ -31,7 +31,7 @@
        <img class="mySlides" src="images/dallas1.jpg" style="width:100%;">
        <img class="mySlides" src="images/sanantonio1.jpg" style="width:100%;">
     </div>
-    
+
     <div id="about">
         <div class="about2">
             <h2>Summary</h2>
@@ -43,10 +43,10 @@
             <p>Matt creates websites and spends most of his time learning/building new projects to keep himself sharp. Along with showcasing projects I also aspire this website to function as a travel/technology blog in the future.</p>
             <h3>Qualifications:</h3>
             <p>Matt has over a year of development experience. I can turn just drawing on paper into that beautiful, functional website you were thinking of. This webpage that you are currently on I personally built.. if you like it give me a call!</p>
-            <a href="resume/myResume.docx" download="myResume.docx"><button>Download Resume</button></a>
+            <a href="resume/mattsResume.docx" download="mattsResume.docx"><button>Download Resume</button></a>
         </div>
     </div> <!-- END OF ABOUT -->
-    
+
     <div id="portfolio">
         <div class="portfolio2">
             <div class="work">
@@ -63,28 +63,29 @@
                         <li><a target="_blank" href="/portfolio/portfolio7/index.html">Social Media Website #1</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="box">
                    <h4>Javascript</h4>
                     <ul>
                         <li><a target="_blank" href="jportfolio1/game.html">Ping-Pong Game</a></li>
+                        <li><a target="_blank" href="jportfolio3/index.html">Album Notification</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>jQuery</h4>
                      <ul>
                         <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>Bootstrap</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
             </div>
             <div class="work">
                 <h2 class="title" style="border-bottom: 1px solid #ccc;">Back End</h2>
@@ -94,28 +95,28 @@
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>MySQL</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>N/A</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>N/A</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
             </div>
             <div class="work">
                 <h2 class="title" style="border-bottom: 1px solid #ccc;">MEAN Stack</h2>
@@ -125,44 +126,44 @@
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>MongoDB</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>Express</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
                 <div class="box">
                     <h4>Angular.js</h4>
                      <ul>
                          <li><a href=""></a></li>
                      </ul>
                 </div>
-                
+
             </div>
         </div>
     </div> <!-- END OF PORTFOLIO -->
-    
+
     <div id="photos">
         <div class="photos2">
             <h1>COMING SOON... OOPS I HAVEN'T MADE IT YET!</h1>
         </div>
     </div> <!-- END OF PHOTOS -->
-    
+
     <div id="blog">
         <div class="blog2">
             <h1>COMING SOON... OOPS I HAVEN'T MADE IT YET!</h1>
         </div>
     </div> <!-- END OF BLOG -->
-    
+
     <div id="contact">
         <div class="contact2">
             <i style="display: block;" class="fa fa-map-marker" aria-hidden="true"> San Antonio, TX</i>
@@ -170,7 +171,7 @@
             <i style="display: block;" class="fa fa-envelope" aria-hidden="true"> Email: <a href="mailto:misakamikotocsr@gmail.com">misakamikotocsr@gmail.com</a> *Preferred*</i>
         </div>
     </div>
-    
+
     <script>
      var myIndex = 0;
      carousel();
@@ -179,14 +180,14 @@
         var i;
         var x = document.getElementsByClassName("mySlides");
         for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";  
+           x[i].style.display = "none";
         }
         myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
         setTimeout(carousel, 5000); // Change image every 5 seconds
     }
-       
+
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
